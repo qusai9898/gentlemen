@@ -1,0 +1,14 @@
+
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+<div></div>
+<div class="card" style="width: 18rem;" *ngFor="let pro of prodlist | paginate: { itemsPerPage: 10, currentPage: p }">
+  <img [src]="pro.imgURL" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{pro.name}}</h5>
+    <p class="card-text">{{pro.dis}}</p>
+        <p class="card-text">{{pro.price}}$</p>
+
+    <a href="#" class="btn btn-primary" (click)="addToCart(pro)">ADD</a>
+  </div>
+</div>

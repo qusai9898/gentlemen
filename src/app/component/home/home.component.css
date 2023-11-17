@@ -1,0 +1,22 @@
+mat-grid-tile {
+    background: lightblue;
+  }
+  mat-grid-tile img{
+    width: 100%;
+  }
+  fa-icon{
+    font-size: 160%;
+  }
+.cart{
+  position: relative;
+  left: 2em;
+}
+#ico{
+  color: #005173;
+}
+.zero{
+  color: #FF0022;
+  display: inline-block;
+  
+    font-size: large;
+}

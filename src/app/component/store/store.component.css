@@ -1,0 +1,30 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  .card{
+  display: inline-block;
+ margin: 2%;
+ box-shadow: -3px 1px 12px 0px #89B0AE;
+  }
+  a{
+
+  width: 100%;
+  background-color: #005173;
+  }
+  a:hover{
+    background-color: #89B0AE;
+  }
+  .ngx-pagination{
+    margin-left: 40% !important;
+    margin-right: 40% !important;
+  }
+  @media screen and (max-width: 400px) {
+    .card{
+     margin-left: 14% !important;
+    }
+   }

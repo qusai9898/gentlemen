@@ -1,0 +1,36 @@
+fa-icon{
+    font-size: 160%;
+    position: relative;
+    top: 18%;
+  }
+.cart{
+  position: relative;
+  left: 2em;
+}
+#ico{
+  color: #005173;
+}
+.zero{
+  color: #FF0022;
+  display: inline-block;
+  
+    font-size: large;
+}
+#exampleModalToggleP{
+    background-color: #fffffc;
+}
+.ngx-pagination{
+  margin-left: 40% !important;
+  margin-right: 40% !important;
+}
+.try{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  margin: 35px 35px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: -3px 1px 12px 0px #89B0AE;
+cursor: pointer;
+}
